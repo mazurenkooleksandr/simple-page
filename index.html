@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Task Vanilla JS</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <p>Test Task</p>
+        <nav class="desktop-menu">
+          <a href="#">Home</a>
+          <a href="#">Contents</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+        <button class="hamburger">
+          <div class="bar"></div>
+        </button>
+      </div>
+    </header>
+    <nav class="mobile-menu">
+      <a href="#">Home</a>
+      <a href="#">Contents</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <main>
+      <h1>Test Task</h1>
+      <section class="section">
+        <h2>Таска №4</h2>
+        <p class="condition">
+          Написати функцію на js яка приймає в якості параметру string і
+          повертає це слово в оберненому вигляді (передали “молоток” - отримати
+          “котолом”).
+        </p>
+        <input
+          type="text"
+          id="reverse"
+          class="reverse-function-input"
+          placeholder="Введіть текст"
+        />
+        <button class="reverse-function-button button">Обернути</button>
+        <p class="reverse-function-result result"></p>
+      </section>
+      <section class="section">
+        <h2>Таска №5</h2>
+        <p class="condition">
+          Написати функцію яка генерує пароль який включає наступні умови та має
+          загальну довжину 8 символів: Велику літеру; Маленьку літеру; Символ
+          (знак); Цифру.
+        </p>
+        <button class="password-generator-button button">
+          Згенерувати пароль
+        </button>
+        <p class="password-generator-result result"></p>
+      </section>
+      <section class="container-products section">
+        <h2>Таска №6</h2>
+        <p class="condition">
+          Виконати запит <a href="https://fakestoreapi.com/products">API</a> та
+          вивести результати в блоці контенту в раніше створеній розмітці
+          окремими блоками (картками) відобразивши наступні поля з відповіді:
+          title; price; description; image. *При кліку на таку картку виводити в
+          консоль об’єкт продукту на який натиснули.
+        </p>
+        <div class="products-block" id="products"></div>
+      </section>
+    </main>
+    <script type="module" src="./src/scripts/main.js"></script>
+  </body>
+</html>

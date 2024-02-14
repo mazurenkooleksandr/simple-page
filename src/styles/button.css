@@ -1,0 +1,13 @@
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: var(--deep-blue);
+  color: var(--white);
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--dark-sky-blue);
+}
